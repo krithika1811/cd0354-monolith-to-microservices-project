@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: udagram-544146547068-monolith
+  AWS_PROFILE: default
+  AWS_REGION: us-east-1
+  JWT_SECRET: hello
+  POSTGRESS_DB: postgres
+  POSTGRESS_HOST: monolith-udagram.cqww8bjyx2u7.us-east-1.rds.amazonaws.com
+  POSTGRESS_USERNAME: krithika
+  POSTGRESS_PASSWORD: HelloWorld1!
+  URL: http://localhost:8100  
+metadata:
+  name: env-config
+  
